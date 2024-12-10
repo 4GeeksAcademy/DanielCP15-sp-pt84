@@ -1,0 +1,15 @@
+.horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    scrollbar-width: thin;
+}
+
+.card {
+    min-width: 200px;
+    flex: 0 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+}
